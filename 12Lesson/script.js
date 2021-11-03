@@ -8,7 +8,7 @@
     - movies - в это свойство поместить пустой объект
     - actors - тоже поместить пустой объект
     - genres - сюда поместить пустой массив
-    - privat - в это свойство поместить boolean(логическое) значение false
+    - private - в это свойство поместить boolean(логическое) значение false
 
 3) Задайте пользователю по два раза вопросы:
     - 'Один из последних просмотренных фильмов?'
@@ -30,8 +30,8 @@ const personalMovieDB = {
     count: numberOfFilms,
     movies: {},
     actors: {},
-    genres: {},
-    privat: false
+    genres: [],
+    private: false
 
 };
 
@@ -45,6 +45,3 @@ personalMovieDB.movies[c] = d;
 
 console.log(personalMovieDB);
 
-console.log(actors);
-
-console.log(count);
